@@ -19,7 +19,7 @@ jobs:
         aws-region: us-east-1
 
       # Step 3
-    - name: Create CodeDeploy Deployment
+    - name: Create CodeDeploy 
       id: deploy
       run: |
         aws deploy create-deployment \
